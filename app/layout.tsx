@@ -7,8 +7,8 @@ import { Toaster } from "@/components/ui/toaster"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Quiz Bíblico",
-  description: "Plataforma de Quiz Bíblico com diferentes modos de jogo",
+  title: "HolyQuiz",
+  description: "Plataforma de HolyQuiz com diferentes modos de jogo",
     generator: 'v0.dev'
 }
 

@@ -18,7 +18,7 @@ const Sidebar = () => {
         <div className="p-6 w-full items-center flex justify-center">
           <Link href="/premium" className="flex items-center gap-2">
             <BookOpen className="h-6 w-6 text-white" />
-            <span className="text-xl font-bold text-white">Quiz Bíblico</span>
+            <span className="text-xl font-bold text-white">HolyQuiz</span>
           </Link>
         </div>
 

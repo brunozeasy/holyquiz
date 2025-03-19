@@ -63,13 +63,13 @@ export default function LandingPage() {
                 <div className="relative w-full max-w-[400px] aspect-square">
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full opacity-20 blur-3xl"></div>
                   <div className="relative bg-white dark:bg-gray-900 border rounded-xl shadow-lg p-6 h-full flex items-center justify-center">
-                    <div className="text-center space-y-4">
+                    <div className="text-center space-y-3">
                       <BookOpen className="mx-auto h-16 w-16 text-sky-500" />
                       <h3 className="text-2xl font-bold text-sky-500">
-                        Quiz Bíblico
+                      Quiz Bíblico
                       </h3>
                       <p className="text-sky-500">
-                        Mais de 5.000 perguntas sobre o Antigo e Novo Testamento
+                       Com mais de 5.000 perguntas sobre o Antigo e Novo Testamento
                       </p>
                     </div>
                   </div>
@@ -202,7 +202,6 @@ export default function LandingPage() {
         <section className="w-full py-12 md:py-24 bg-white dark:bg-gray-950">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-             
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
                 Gamificação e Engajamento
               </h2>
@@ -255,7 +254,6 @@ export default function LandingPage() {
         <section className="w-full py-12 md:py-24 bg-gray-50 dark:bg-gray-900">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-             
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
                 Escolha o plano ideal para você
               </h2>
@@ -392,7 +390,6 @@ export default function LandingPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col md:flex-row gap-12 items-center">
               <div className="md:w-1/2 space-y-4">
-               
                 <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
                   Participe de competições emocionantes
                 </h2>
@@ -478,7 +475,7 @@ export default function LandingPage() {
                   O que nossos usuários dizem
                 </h2>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  Veja como o Quiz Bíblico tem ajudado pessoas a aprofundar seu
+                  Veja como o HolyQuiz tem ajudado pessoas a aprofundar seu
                   conhecimento das escrituras
                 </p>
               </div>
@@ -487,13 +484,13 @@ export default function LandingPage() {
               {[
                 {
                   quote:
-                    "O Quiz Bíblico revolucionou nossos estudos bíblicos. Agora nossos jovens estão muito mais engajados e aprendendo de forma divertida.",
+                    "O HolyQuiz revolucionou nossos estudos bíblicos. Agora nossos jovens estão muito mais engajados e aprendendo de forma divertida.",
                   author: "Pastor Carlos Silva",
                   church: "Igreja Batista Central",
                 },
                 {
                   quote:
-                    "Uso o Quiz Bíblico com meus alunos da escola dominical. É incrível como eles absorvem o conhecimento quando apresentado de forma interativa.",
+                    "Uso o HolyQuiz com meus alunos da escola dominical. É incrível como eles absorvem o conhecimento quando apresentado de forma interativa.",
                   author: "Maria Oliveira",
                   church: "Igreja Presbiteriana",
                 },
@@ -505,7 +502,7 @@ export default function LandingPage() {
                 },
                 {
                   quote:
-                    "Como líder de jovens, encontrei no Quiz Bíblico uma ferramenta perfeita para engajar a nova geração com as escrituras de forma relevante e tecnológica.",
+                    "Como líder de jovens, encontrei no HolyQuiz uma ferramenta perfeita para engajar a nova geração com as escrituras de forma relevante e tecnológica.",
                   author: "Ana Costa",
                   church: "Igreja Metodista",
                 },
@@ -562,9 +559,7 @@ export default function LandingPage() {
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
             <div className="flex items-center gap-2">
               <BookOpen className="h-5 w-5 text-primary" />
-              <span className="text-lg font-bold text-primary">
-                HolyQuiz
-              </span>
+              <span className="text-lg font-bold text-primary">HolyQuiz</span>
             </div>
             <div className="flex items-center gap-4">
               <Link

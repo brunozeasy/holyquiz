@@ -63,7 +63,7 @@ export default function LoginPage() {
         <div className="flex flex-col items-center space-y-2 text-center">
           <Link href="/" className="flex items-center gap-2">
             <BookOpen className="h-6 w-6 text-primary" />
-            <span className="text-xl font-bold text-primary">Quiz Bíblico</span>
+            <span className="text-xl font-bold text-primary">HolyQuiz</span>
           </Link>
           <h1 className="text-2xl font-bold">Bem-vindo de volta</h1>
           <p className="text-gray-500 dark:text-gray-400">Entre ou crie sua conta para começar</p>
