@@ -16,11 +16,11 @@ import {
 export default function LandingPage() {
   return (
     <div className="flex flex-col min-h-screen">
-      <header className="w-full  py-4 px-4 md:px-6 backdrop-blur-3xl bg-sky-400/90">
+      <header className="w-full  py-4 px-4 md:px-6 backdrop-blur-3xl bg-sky-500/90">
         <div className="container flex items-center justify-between">
           <div className="flex items-center gap-2">
             <BookOpen className="h-6 w-6 text-white" />
-            <span className="text-xl font-bold text-white">Quiz Bíblico</span>
+            <span className="text-xl font-bold text-white">HolyQuiz</span>
           </div>
           <div className="flex items-center gap-4">
             <Button variant="ghost" size="sm" asChild>
@@ -35,19 +35,19 @@ export default function LandingPage() {
 
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-b from-sky-300 to-sky-500">
-          <div className="container px-4 md:px-6">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-b from-sky-400 to-sky-500 flex justify-center">
+          <div className="w-full max-w-7xl px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
-              <div className="space-y-4 text-white items-center max-sm:text-center">
-                <h1 className="text-3xl  font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
+              <div className="space-y-4 text-white text-center lg:text-left flex flex-col items-center lg:items-start">
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
                   Teste seu conhecimento bíblico de forma divertida
                 </h1>
-                <p className="max-w-[600px]  md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                <p className="max-w-[600px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Desafie seus amigos, participe de competições entre igrejas e
                   aprofunde seu conhecimento das escrituras com nosso Quiz
                   Bíblico interativo.
                 </p>
-                <div className="flex flex-col gap-2 min-[400px]:flex-row">
+                <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center lg:justify-start">
                   <Button size="lg" asChild>
                     <Link href="/login">
                       Começar agora
@@ -59,7 +59,7 @@ export default function LandingPage() {
                   </Button>
                 </div>
               </div>
-              <div className="mx-auto lg:ml-auto flex items-center justify-center">
+              <div className="flex justify-center items-center">
                 <div className="relative w-full max-w-[400px] aspect-square">
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full opacity-20 blur-3xl"></div>
                   <div className="relative bg-white dark:bg-gray-900 border rounded-xl shadow-lg p-6 h-full flex items-center justify-center">
@@ -149,7 +149,7 @@ export default function LandingPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl text-sky-600 font-bold tracking-tighter md:text-4xl/tight">
+                <h2 className="text-3xl text-primary font-bold tracking-tighter md:text-4xl/tight">
                   Aprenda e divirta-se ao mesmo tempo
                 </h2>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
@@ -161,19 +161,19 @@ export default function LandingPage() {
             <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-3 lg:gap-12 mt-12">
               {[
                 {
-                  icon: <BookOpen className="h-10 w-10 text-sky-700" />,
+                  icon: <BookOpen className="h-10 w-10 text-primary" />,
                   title: "Modo Solo",
                   description:
                     "Teste seu conhecimento individual com perguntas de diferentes níveis de dificuldade.",
                 },
                 {
-                  icon: <Users className="h-10 w-10 text-sky-700" />,
+                  icon: <Users className="h-10 w-10 text-primary" />,
                   title: "Modo Multiplayer",
                   description:
                     "Desafie seus amigos em duelos de conhecimento bíblico em tempo real.",
                 },
                 {
-                  icon: <Trophy className="h-10 w-10 text-sky-700" />,
+                  icon: <Trophy className="h-10 w-10 text-primary" />,
                   title: "Torneios",
                   description:
                     "Participe de competições entre igrejas e grupos de estudo bíblico.",
@@ -183,10 +183,10 @@ export default function LandingPage() {
                   key={index}
                   className="flex flex-col items-center space-y-4 text-center"
                 >
-                  <div className="flex h-20 w-20 items-center justify-center rounded-full bg-sky-700/10">
+                  <div className="flex h-20 w-20 items-center justify-center rounded-full bg-prtext-primary/10">
                     {feature.icon}
                   </div>
-                  <h3 className="text-xl text-sky-700 font-bold">
+                  <h3 className="text-xl text-primary font-bold">
                     {feature.title}
                   </h3>
                   <p className="text-gray-500 dark:text-gray-400">
@@ -202,9 +202,7 @@ export default function LandingPage() {
         <section className="w-full py-12 md:py-24 bg-white dark:bg-gray-950">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-              <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">
-                Sistema de Recompensas
-              </div>
+             
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
                 Gamificação e Engajamento
               </h2>
@@ -257,9 +255,7 @@ export default function LandingPage() {
         <section className="w-full py-12 md:py-24 bg-gray-50 dark:bg-gray-900">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-              <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">
-                Planos e Monetização
-              </div>
+             
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
                 Escolha o plano ideal para você
               </h2>
@@ -396,9 +392,7 @@ export default function LandingPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col md:flex-row gap-12 items-center">
               <div className="md:w-1/2 space-y-4">
-                <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">
-                  Eventos e Torneios
-                </div>
+               
                 <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
                   Participe de competições emocionantes
                 </h2>
@@ -480,9 +474,6 @@ export default function LandingPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">
-                  Depoimentos
-                </div>
                 <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
                   O que nossos usuários dizem
                 </h2>
@@ -541,7 +532,7 @@ export default function LandingPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-primary text-primary-foreground">
+        <section className="w-full py-12 md:py-24 lg:py-32  bg-sky-800 text-primary-foreground">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -572,7 +563,7 @@ export default function LandingPage() {
             <div className="flex items-center gap-2">
               <BookOpen className="h-5 w-5 text-primary" />
               <span className="text-lg font-bold text-primary">
-                Quiz Bíblico
+                HolyQuiz
               </span>
             </div>
             <div className="flex items-center gap-4">
@@ -596,7 +587,7 @@ export default function LandingPage() {
               </Link>
             </div>
             <p className="text-sm text-gray-500 dark:text-gray-400">
-              © 2025 Quiz Bíblico. Todos os direitos reservados.
+              © 2025 HolyQuiz. Todos os direitos reservados.
             </p>
           </div>
         </div>
