@@ -1,6 +1,17 @@
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { BookOpen, ChevronRight, Users, Trophy, CheckCircle, Church, Award, Zap, Layers, Globe } from "lucide-react"
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import {
+  BookOpen,
+  ChevronRight,
+  Users,
+  Trophy,
+  CheckCircle,
+  Church,
+  Award,
+  Zap,
+  Layers,
+  Globe,
+} from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -27,13 +38,14 @@ export default function LandingPage() {
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-b from-sky-300 to-sky-500">
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
-              <div className="space-y-4 text-white">
+              <div className="space-y-4 text-white items-center max-sm:text-center">
                 <h1 className="text-3xl  font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
                   Teste seu conhecimento bíblico de forma divertida
                 </h1>
                 <p className="max-w-[600px]  md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Desafie seus amigos, participe de competições entre igrejas e aprofunde seu conhecimento das
-                  escrituras com nosso Quiz Bíblico interativo.
+                  Desafie seus amigos, participe de competições entre igrejas e
+                  aprofunde seu conhecimento das escrituras com nosso Quiz
+                  Bíblico interativo.
                 </p>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Button size="lg" asChild>
@@ -53,7 +65,9 @@ export default function LandingPage() {
                   <div className="relative bg-white dark:bg-gray-900 border rounded-xl shadow-lg p-6 h-full flex items-center justify-center">
                     <div className="text-center space-y-4">
                       <BookOpen className="mx-auto h-16 w-16 text-sky-500" />
-                      <h3 className="text-2xl font-bold text-sky-500">Quiz Bíblico</h3>
+                      <h3 className="text-2xl font-bold text-sky-500">
+                        Quiz Bíblico
+                      </h3>
                       <p className="text-sky-500">
                         Mais de 5.000 perguntas sobre o Antigo e Novo Testamento
                       </p>
@@ -69,11 +83,13 @@ export default function LandingPage() {
         <section className="w-full py-12 md:py-24 bg-white dark:bg-gray-950 border-t border-b border-gray-200 dark:border-gray-800">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
-            
-              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Quiz Bíblico Multiplayer</h2>
+              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
+                Quiz Bíblico Multiplayer
+              </h2>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed dark:text-gray-400">
-                Uma plataforma de jogos interativos voltada para o público cristão, oferecendo diferentes modos de jogo,
-                gamificação e um ambiente seguro para aprendizado e diversão.
+                Uma plataforma de jogos interativos voltada para o público
+                cristão, oferecendo diferentes modos de jogo, gamificação e um
+                ambiente seguro para aprendizado e diversão.
               </p>
             </div>
 
@@ -84,8 +100,8 @@ export default function LandingPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Plataforma Completa</h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Quiz bíblico multiplayer para igrejas, grupos de estudo e jogadores individuais com sistema de ranking
-                  e premiações.
+                  Quiz bíblico multiplayer para igrejas, grupos de estudo e
+                  jogadores individuais com sistema de ranking e premiações.
                 </p>
               </div>
 
@@ -95,7 +111,8 @@ export default function LandingPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Múltiplos Modos</h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Jogue solo, em duelos 1x1, em times ou participe de torneios organizados por igrejas e grupos.
+                  Jogue solo, em duelos 1x1, em times ou participe de torneios
+                  organizados por igrejas e grupos.
                 </p>
               </div>
 
@@ -105,7 +122,8 @@ export default function LandingPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Para Igrejas</h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Igrejas podem criar quizzes personalizados, usar para ensino bíblico e obter relatórios de desempenho.
+                  Igrejas podem criar quizzes personalizados, usar para ensino
+                  bíblico e obter relatórios de desempenho.
                 </p>
               </div>
 
@@ -115,7 +133,8 @@ export default function LandingPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Multiplataforma</h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Acesse pelo navegador web e em breve nos aplicativos para Android e iOS para jogar em qualquer lugar.
+                  Acesse pelo navegador web e em breve nos aplicativos para
+                  Android e iOS para jogar em qualquer lugar.
                 </p>
               </div>
             </div>
@@ -123,7 +142,10 @@ export default function LandingPage() {
         </section>
 
         {/* Features Section */}
-        <section id="como-funciona" className="w-full py-12 md:py-24 lg:py-32 bg-sky-200">
+        <section
+          id="como-funciona"
+          className="w-full py-12 md:py-24 lg:py-32 bg-sky-200"
+        >
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -131,7 +153,8 @@ export default function LandingPage() {
                   Aprenda e divirta-se ao mesmo tempo
                 </h2>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  Nossa plataforma oferece diferentes modos de jogo para todos os níveis de conhecimento bíblico
+                  Nossa plataforma oferece diferentes modos de jogo para todos
+                  os níveis de conhecimento bíblico
                 </p>
               </div>
             </div>
@@ -140,25 +163,35 @@ export default function LandingPage() {
                 {
                   icon: <BookOpen className="h-10 w-10 text-sky-700" />,
                   title: "Modo Solo",
-                  description: "Teste seu conhecimento individual com perguntas de diferentes níveis de dificuldade.",
+                  description:
+                    "Teste seu conhecimento individual com perguntas de diferentes níveis de dificuldade.",
                 },
                 {
                   icon: <Users className="h-10 w-10 text-sky-700" />,
                   title: "Modo Multiplayer",
-                  description: "Desafie seus amigos em duelos de conhecimento bíblico em tempo real.",
+                  description:
+                    "Desafie seus amigos em duelos de conhecimento bíblico em tempo real.",
                 },
                 {
                   icon: <Trophy className="h-10 w-10 text-sky-700" />,
                   title: "Torneios",
-                  description: "Participe de competições entre igrejas e grupos de estudo bíblico.",
+                  description:
+                    "Participe de competições entre igrejas e grupos de estudo bíblico.",
                 },
               ].map((feature, index) => (
-                <div key={index} className="flex flex-col items-center space-y-4 text-center">
+                <div
+                  key={index}
+                  className="flex flex-col items-center space-y-4 text-center"
+                >
                   <div className="flex h-20 w-20 items-center justify-center rounded-full bg-sky-700/10">
                     {feature.icon}
                   </div>
-                  <h3 className="text-xl text-sky-700 font-bold">{feature.title}</h3>
-                  <p className="text-gray-500 dark:text-gray-400">{feature.description}</p>
+                  <h3 className="text-xl text-sky-700 font-bold">
+                    {feature.title}
+                  </h3>
+                  <p className="text-gray-500 dark:text-gray-400">
+                    {feature.description}
+                  </p>
                 </div>
               ))}
             </div>
@@ -172,9 +205,12 @@ export default function LandingPage() {
               <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">
                 Sistema de Recompensas
               </div>
-              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Gamificação e Engajamento</h2>
+              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
+                Gamificação e Engajamento
+              </h2>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed dark:text-gray-400">
-                Mantenha-se motivado com nosso sistema de recompensas e conquistas
+                Mantenha-se motivado com nosso sistema de recompensas e
+                conquistas
               </p>
             </div>
 
@@ -185,7 +221,8 @@ export default function LandingPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Ranking Global</h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Compete com jogadores de todo o mundo e veja sua posição no ranking global e por igreja.
+                  Compete com jogadores de todo o mundo e veja sua posição no
+                  ranking global e por igreja.
                 </p>
               </div>
 
@@ -193,10 +230,12 @@ export default function LandingPage() {
                 <div className="bg-purple-100 dark:bg-purple-900/30 p-4 rounded-full mb-4">
                   <Award className="h-8 w-8 text-purple-600 dark:text-purple-400" />
                 </div>
-                <h3 className="text-xl font-bold mb-2">Medalhas e Conquistas</h3>
+                <h3 className="text-xl font-bold mb-2">
+                  Medalhas e Conquistas
+                </h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Desbloqueie medalhas e conquistas especiais à medida que progride e domina diferentes categorias
-                  bíblicas.
+                  Desbloqueie medalhas e conquistas especiais à medida que
+                  progride e domina diferentes categorias bíblicas.
                 </p>
               </div>
 
@@ -206,8 +245,8 @@ export default function LandingPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Moeda Virtual</h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Ganhe moedas virtuais ao jogar e use-as para desbloquear modos especiais, avatares e outros recursos
-                  exclusivos.
+                  Ganhe moedas virtuais ao jogar e use-as para desbloquear modos
+                  especiais, avatares e outros recursos exclusivos.
                 </p>
               </div>
             </div>
@@ -221,9 +260,12 @@ export default function LandingPage() {
               <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">
                 Planos e Monetização
               </div>
-              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Escolha o plano ideal para você</h2>
+              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
+                Escolha o plano ideal para você
+              </h2>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed dark:text-gray-400">
-                Oferecemos diferentes opções para jogadores individuais e igrejas
+                Oferecemos diferentes opções para jogadores individuais e
+                igrejas
               </p>
             </div>
 
@@ -361,8 +403,9 @@ export default function LandingPage() {
                   Participe de competições emocionantes
                 </h2>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Nossos torneios oferecem uma oportunidade única para testar seu conhecimento bíblico, competir com
-                  outros crentes e ganhar prêmios exclusivos.
+                  Nossos torneios oferecem uma oportunidade única para testar
+                  seu conhecimento bíblico, competir com outros crentes e ganhar
+                  prêmios exclusivos.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
@@ -394,7 +437,9 @@ export default function LandingPage() {
                   <div className="flex items-center justify-between pb-4 border-b border-gray-200 dark:border-gray-700">
                     <div>
                       <h3 className="font-bold text-lg">Torneio Nacional</h3>
-                      <p className="text-sm text-gray-500 dark:text-gray-400">Inscrições até 30/04</p>
+                      <p className="text-sm text-gray-500 dark:text-gray-400">
+                        Inscrições até 30/04
+                      </p>
                     </div>
                     <div className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium">
                       Em breve
@@ -403,7 +448,9 @@ export default function LandingPage() {
                   <div className="flex items-center justify-between pb-4 border-b border-gray-200 dark:border-gray-700">
                     <div>
                       <h3 className="font-bold text-lg">Copa das Igrejas</h3>
-                      <p className="text-sm text-gray-500 dark:text-gray-400">16 igrejas participantes</p>
+                      <p className="text-sm text-gray-500 dark:text-gray-400">
+                        16 igrejas participantes
+                      </p>
                     </div>
                     <div className="bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 px-3 py-1 rounded-full text-sm font-medium">
                       Ativo
@@ -411,8 +458,12 @@ export default function LandingPage() {
                   </div>
                   <div className="flex items-center justify-between pb-4 border-b border-gray-200 dark:border-gray-700">
                     <div>
-                      <h3 className="font-bold text-lg">Desafio Novo Testamento</h3>
-                      <p className="text-sm text-gray-500 dark:text-gray-400">Prêmio: R$ 1.000</p>
+                      <h3 className="font-bold text-lg">
+                        Desafio Novo Testamento
+                      </h3>
+                      <p className="text-sm text-gray-500 dark:text-gray-400">
+                        Prêmio: R$ 1.000
+                      </p>
                     </div>
                     <div className="bg-yellow-100 dark:bg-yellow-900/30 text-yellow-600 dark:text-yellow-400 px-3 py-1 rounded-full text-sm font-medium">
                       Últimas vagas
@@ -429,10 +480,15 @@ export default function LandingPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">Depoimentos</div>
-                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">O que nossos usuários dizem</h2>
+                <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">
+                  Depoimentos
+                </div>
+                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
+                  O que nossos usuários dizem
+                </h2>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  Veja como o Quiz Bíblico tem ajudado pessoas a aprofundar seu conhecimento das escrituras
+                  Veja como o Quiz Bíblico tem ajudado pessoas a aprofundar seu
+                  conhecimento das escrituras
                 </p>
               </div>
             </div>
@@ -468,11 +524,15 @@ export default function LandingPage() {
                   className="flex flex-col justify-between rounded-lg border bg-white p-6 shadow-sm dark:bg-gray-950 dark:border-gray-800"
                 >
                   <div>
-                    <p className="text-gray-500 dark:text-gray-400 mb-4">"{testimonial.quote}"</p>
+                    <p className="text-gray-500 dark:text-gray-400 mb-4">
+                      "{testimonial.quote}"
+                    </p>
                   </div>
                   <div>
                     <p className="font-medium">{testimonial.author}</p>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">{testimonial.church}</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400">
+                      {testimonial.church}
+                    </p>
                   </div>
                 </div>
               ))}
@@ -489,8 +549,8 @@ export default function LandingPage() {
                   Pronto para começar sua jornada?
                 </h2>
                 <p className="mx-auto max-w-[700px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Junte-se a milhares de cristãos que estão aprofundando seu conhecimento bíblico de forma divertida e
-                  interativa.
+                  Junte-se a milhares de cristãos que estão aprofundando seu
+                  conhecimento bíblico de forma divertida e interativa.
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -511,7 +571,9 @@ export default function LandingPage() {
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
             <div className="flex items-center gap-2">
               <BookOpen className="h-5 w-5 text-primary" />
-              <span className="text-lg font-bold text-primary">Quiz Bíblico</span>
+              <span className="text-lg font-bold text-primary">
+                Quiz Bíblico
+              </span>
             </div>
             <div className="flex items-center gap-4">
               <Link
@@ -540,6 +602,5 @@ export default function LandingPage() {
         </div>
       </footer>
     </div>
-  )
+  );
 }
-
